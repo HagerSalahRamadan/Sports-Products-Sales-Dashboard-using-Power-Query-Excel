@@ -16,26 +16,26 @@ This dashboard provides key insights into sales performance, product categories,
 ##### **Here’s how I did it**:
 **🔹 Step 1: Importing & Cleaning Data**
 I started with three separate datasets:-
-   - ✔ Sales Data – Containing product sales records with country codes.
-   - ✔ Country Data – A reference table mapping country codes to country names.
-   - ✔ Product Data – Listing product details like category, retail price, and standard cost.
+    -  ✔ Sales Data – Containing product sales records with country codes.
+    -  ✔ Country Data – A reference table mapping country codes to country names.
+    -  ✔ Product Data – Listing product details like category, retail price, and standard cost.
 
 Using Power Query, I:
-   - ✅ Imported all three datasets.
-   - ✅ Cleaned inconsistencies (e.g., missing values, incorrect data types).
+    -  ✅ Imported all three datasets.
+    -  ✅ Cleaned inconsistencies (e.g., missing values, incorrect data types).
 
 **🔹 Step 2: Merging & Transforming Data**
 The key to a functional dashboard is a well-structured dataset. To achieve this, I:-
-   - ✔ Merged Queries – Joined the sales table with country and product tables using common keys (Country Code and Product Name).
-   - ✔ Expanded Data – Added product categories, retail prices, and country names to enrich the dataset.
-   - ✔ Reordered & Renamed Columns – Ensuring clarity and consistency.
-   - ✔ Changed Data Types – Converting revenue and cost columns to numeric formats for accurate calculations.
+    -  ✔ Merged Queries – Joined the sales table with country and product tables using common keys (Country Code and Product Name).
+    -  ✔ Expanded Data – Added product categories, retail prices, and country names to enrich the dataset.
+    -  ✔ Reordered & Renamed Columns – Ensuring clarity and consistency.
+    -  ✔ Changed Data Types – Converting revenue and cost columns to numeric formats for accurate calculations.
 
 **🔹 Step 3: Creating the Dashboard**
 With clean and structured data, I built a dynamic sales dashboard that showcases:-
-   - 📌 Total Revenue, Units Sold, COGS, and Profit Margin at a glance.
-   - 📌 Revenue by Product Category, Country, and Month to track trends.
-   - 📌 Top 5 Sold Products & Country Sales Performance for strategic insights.
+      -  📌 Total Revenue, Units Sold, COGS, and Profit Margin at a glance.
+      -  📌 Revenue by Product Category, Country, and Month to track trends.
+      -  📌 Top 5 Sold Products & Country Sales Performance for strategic insights.
 
 
   
@@ -58,11 +58,11 @@ With clean and structured data, I built a dynamic sales dashboard that showcases
          .  Advanced, Competition, and Freestyle categories contribute less.
 
    -  Top 10 Countries by Revenue 
-         .  United States leads revenue at $1.63M, followed by Germany 
+         -   .  United States leads revenue at $1.63M, followed by Germany 
                   ($0.57M) and Japan ($0.37M).
-         .  Other markets (UK, Spain, Austria) contribute much lower.
+         -   .  Other markets (UK, Spain, Austria) contribute much lower.
 
-   -  Monthly Sales Trend 
+   -  Monthly Sales Trend :-
         . Steady performance until October, then a significant spike in 
                  November & December.
         .  Likely seasonal demand increase (holiday sales, Black Friday, 
