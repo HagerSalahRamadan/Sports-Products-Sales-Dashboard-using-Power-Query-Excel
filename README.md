@@ -31,12 +31,11 @@ The key to a functional dashboard is a well-structured dataset. To achieve this,
     -  ✔ Reordered & Renamed Columns – Ensuring clarity and consistency.
     -  ✔ Changed Data Types – Converting revenue and cost columns to numeric formats for accurate calculations.
 
-**🔹 Step 3: Creating the Dashboard**
-- With clean and structured data, I built a dynamic sales dashboard that showcases :-
-      
-      -  📌 Total Revenue, Units Sold, COGS, and Profit Margin at a glance.
-      -  📌 Revenue by Product Category, Country, and Month to track trends.
-      -  📌 Top 5 Sold Products & Country Sales Performance for strategic insights.
+**🔹 Step 3: Creating the Dashboard** :-
+    - With clean and structured data, I built a dynamic sales dashboard that showcases :-
+       -   📌 Total Revenue, Units Sold, COGS, and Profit Margin at a glance.
+       -   📌 Revenue by Product Category, Country, and Month to track trends.
+       -   📌 Top 5 Sold Products & Country Sales Performance for strategic insights.
 
 
   
