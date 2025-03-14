@@ -14,24 +14,24 @@ This dashboard provides key insights into sales performance, product categories,
 
 
 - **🔹 Step 1: Importing & Cleaning Data**
-    I started with three separate datasets :-
+   - I started with three separate datasets :-
       -   ✔ Sales Data – Containing product sales records with country codes.
       -   ✔ Country Data – A reference table mapping country codes to country names.
       -   ✔ Product Data – Listing product details like category, retail price, and standard cost.
 
     - Using Power Query, I :-
          -   ✅ Imported all three datasets.
-        -   ✅ Cleaned inconsistencies (e.g., missing values, incorrect data types).
+        -    ✅ Cleaned inconsistencies (e.g., missing values, incorrect data types).
 
 - **🔹 Step 2: Merging & Transforming Data**
-       The key to a functional dashboard is a well-structured dataset. To achieve this, I :-
+   - The key to a functional dashboard is a well-structured dataset. To achieve this, I :-
       -   ✔ Merged Queries – Joined the sales table with country and product tables using common keys (Country Code and Product Name).
       -   ✔ Expanded Data – Added product categories, retail prices, and country names to enrich the dataset.
       -   ✔ Reordered & Renamed Columns – Ensuring clarity and consistency.
       -   ✔ Changed Data Types – Converting revenue and cost columns to numeric formats for accurate calculations.
 
-- **🔹 Step 3: Creating the Dashboard** :-
-       With clean and structured data, I built a dynamic sales dashboard that showcases :-
+- **🔹 Step 3: Creating the Dashboard** 
+   - With clean and structured data, I built a dynamic sales dashboard that showcases :-
        -   📌 Total Revenue, Units Sold, COGS, and Profit Margin at a glance.
        -   📌 Revenue by Product Category, Country, and Month to track trends.
        -   📌 Top 5 Sold Products & Country Sales Performance for strategic insights.
